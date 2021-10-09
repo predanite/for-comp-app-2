@@ -1,0 +1,62 @@
+
+<html>
+  <head>
+    <title>identifier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+<h1> Image Identifier <img id="dumcat" src="logo.gif"></h1>
+<P>powered by MobileNet</P>
+
+
+<div class="col-md-4">
+<h3>cam to take photo</h3>
+<div id="supacam"></div>
+<br>
+<button id="takapoto" onclick="cheese()">take a photo</button>
+</div>
+
+
+<div class="col-md-4 blubdedub">
+<h4 class="col-md-4">
+  <img id="blub" src="blub.gif">
+  <span id="obname"></span>
+</h4>  
+</div>
+
+
+<div class="col-md-4">
+  <h3>cam took photo</h3>
+  <div id="villacam"></div>
+  <br>
+  <button id="scanapoto" onclick="sneeze()">identify a photo</button>
+  </div>
+      
+
+</center>
+
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
